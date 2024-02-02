@@ -1,0 +1,32 @@
+.search-wrapper{
+
+    background-color: #F1F1F2;
+    width: 500px;
+    height: 46px;
+    border-radius: 92px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.user-input{
+    display: flex;
+    align-items: center;
+    flex: auto;
+    >input{
+        flex: auto;
+        background-color: #F1F1F2;
+        border: none;
+    }
+    >input:focus{
+        outline: none;
+    }
+}
+.fa-circle-xmark{
+    padding: 2px;
+    border-right: 1px solid #1618231f;
+}
+.search-icon{
+    padding: 11px 16px 11px 12px;
+    margin-left: auto;
+}

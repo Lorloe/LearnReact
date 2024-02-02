@@ -1,0 +1,17 @@
+.interact-wrapper{
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.doraemon{
+    width: 32px;
+    height: 32px;
+    object-fit: fill;
+    border-radius: 50%;
+    align-items: center;
+}
